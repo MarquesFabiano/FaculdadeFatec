@@ -1,0 +1,1 @@
+Exercicios e atividades feitos em aula, na faculdade FATEC Araras, para o curso de Desenvolvimento de Software Multiplataforma.
