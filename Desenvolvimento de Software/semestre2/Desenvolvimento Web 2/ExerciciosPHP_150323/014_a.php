@@ -10,4 +10,19 @@ Imprima a condição:
 */
 
 
+function calculo_media ($nota_1, $nota_2) {
+
+    $media = ($nota_1 + $nota_2) / 2;
+
+if ($media >= 7) {
+    echo "Você está aprovado!";
+}elseif ($media >= 5) {
+    echo "Você está de recuperação!";
+}else {
+    echo "Você está reprovado!";
+}
+
+
+return $media;
+}
 ?>

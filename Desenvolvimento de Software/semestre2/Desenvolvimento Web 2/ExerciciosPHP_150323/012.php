@@ -11,12 +11,21 @@ Imprima a condição:
 Edite a função com o nome calculo_media.
 */
 function calculo_media(float $nota_1, float $nota_2): float{
-    return 0.0;
+    $media = ($nota_1 + $nota_2) / 2;
+    return $media;
 }
 $nota_1 = 9;
 $nota_2 = 4;
 
 $media = calculo_media($nota_1, $nota_2);
+echo "Sua média é: $media \n";
 
+if ($media >= 7) {
+    echo "Você está aprovado!";
+} elseif ($media >= 5) {
+    echo "Você está de recuperação!";
+} else {
+    echo "Você está reprovado!";
+}
 
 ?>

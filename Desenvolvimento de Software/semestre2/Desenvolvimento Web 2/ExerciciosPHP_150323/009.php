@@ -10,7 +10,7 @@ Imprima a condição:
 */
 $nota_1 = 9;
 $nota_2 = 4;
-$media = $nota_1 + $nota_2 % 2;
+$media = $nota_1 + $nota_2 / 2;
 
 echo "A média é: $media \n" ;
 

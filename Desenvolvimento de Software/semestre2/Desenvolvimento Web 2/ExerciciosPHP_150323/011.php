@@ -11,9 +11,32 @@ Imprima a condição:
 Crie uma função com o nome calculo_media.
 Use tipagem estrita e limite os parâmetros a receber float.
 */
+
+declare(strict_types=1);
+
 $nota_1 = 9;
 $nota_2 = 4;
 
+function calculo_media(float $nota_1, float $nota_2): float { 
+    $media = ($nota_1 + $nota_2) / 2;
+    return $media;
+}
 
+$nota_1 = 9.5;
+$nota_2 = 4.5;
+
+$media = calculo_media($nota_1, $nota_2);
+echo "Sua média é: $media \n";
+
+if ($media >= 7) {
+    echo "Você está aprovado!";
+} elseif ($media >= 5) {
+    echo "Você está de recuperação!";
+} else {
+    echo "Você está reprovado!";
+}
+
+
+?>
 
 ?>
