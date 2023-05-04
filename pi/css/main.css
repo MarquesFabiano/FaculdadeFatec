@@ -1,0 +1,86 @@
+/* estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    background: #0072c6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #005ea8;
+  }
+  
+  #dicas {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #0072c6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* gradiente de fundo */
+  body {
+    background: linear-gradient(to bottom, #8da5b8, #f5f5f5);
+  }
+  
